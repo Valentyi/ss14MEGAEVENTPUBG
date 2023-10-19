@@ -920,7 +920,7 @@
           Blunt: 5
           Piercing: 5
           Structural: 15
-      attackRate: 0.9
+      attackRate: 0.85
       heavyStaminaCost: 10
     - type: IncreaseDamageOnWield
       damage:
@@ -951,7 +951,7 @@
           Blunt: 7
           Piercing: 7
           Structural: 20
-      attackRate: 0.9
+      attackRate: 0.75
       heavyStaminaCost: 10
     - type: IncreaseDamageOnWield
       damage:
@@ -983,7 +983,7 @@
           Blunt: 10
           Piercing: 10
           Structural: 30
-      attackRate: 0.9
+      attackRate: 0.6
       heavyStaminaCost: 10
     - type: IncreaseDamageOnWield
       damage:

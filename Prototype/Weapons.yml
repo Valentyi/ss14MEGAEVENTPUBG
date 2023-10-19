@@ -803,3 +803,198 @@
       color: "#FF0000FF"
       energy: 55
       radius: 1.2
+  
+  
+# ================ КИРКИ
+
+- type: entity
+  name: Кирка (Ужасная)
+  parent: BaseItem
+  id: EventBasePickaxe
+  description: Кирка ужасного качества
+  components:
+    - type: Tag
+      tags:
+        - Pickaxe
+    - type: Sprite
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Terrible.rsi
+      state: pickaxe
+    - type: ItemCooldown
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 1.5
+          Piercing: 1.5
+          Structural: 5
+      attackRate: 1.1
+      heavyStaminaCost: 16
+    - type: Wieldable
+    - type: IncreaseDamageOnWield
+      damage:
+        types:
+          Blunt: 2
+          Piercing: 2
+          Structural: 7
+    - type: Item
+      size: 110
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Terrible.rsi
+    - type: PointLight
+      color: "#FFFFFFFF"
+      energy: 2
+      radius: 1.2
+
+- type: entity
+  name: Кирка (Плохая)
+  parent: EventBasePickaxe
+  id: EventPickaxePoor
+  description: Кирка плохого качества
+  components:
+    - type: Sprite
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Poor.rsi
+      state: pickaxe
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 2
+          Piercing: 2
+          Structural: 7
+      attackRate: 1.05
+      heavyStaminaCost: 14
+    - type: IncreaseDamageOnWield
+      damage:
+        types:
+          Blunt: 3.5
+          Piercing: 3.5
+          Structural: 9
+    - type: Item
+      size: 100
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Poor.rsi
+    - type: PointLight
+      color: "#013220FF"
+      energy: 111
+      radius: 1.2
+
+- type: entity
+  name: Кирка (Обычная)
+  parent: EventBasePickaxe
+  id: EventPickaxeStandart
+  description: Кирка обычного качества
+  components:
+    - type: Sprite
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Standard.rsi
+      state: pickaxe
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 3.5
+          Piercing: 3.5
+          Structural: 10
+      attackRate: 1.0
+      heavyStaminaCost: 12
+    - type: IncreaseDamageOnWield
+      damage:
+        types:
+          Blunt: 5
+          Piercing: 5
+          Structural: 14
+    - type: Item
+      size: 95
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Standard.rsi
+    - type: PointLight
+      color: "#FFFFFFFF"
+      energy: 15
+      radius: 1.1
+
+- type: entity
+  name: Кирка (Хорошая)
+  parent: EventBasePickaxe
+  id: EventPickaxeGood
+  description: Кирка хорошего качества
+  components:
+    - type: Sprite
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Good.rsi
+      state: pickaxe
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 5
+          Piercing: 5
+          Structural: 15
+      attackRate: 0.9
+      heavyStaminaCost: 10
+    - type: IncreaseDamageOnWield
+      damage:
+        types:
+          Blunt: 7
+          Piercing: 7
+          Structural: 18
+    - type: Item
+      size: 90
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Good.rsi
+    - type: PointLight
+      color: "#0000FFFF"
+      energy: 21
+      radius: 1.15
+      
+- type: entity
+  name: Кирка (Отличная)
+  parent: EventBasePickaxe
+  id: EventPickaxeExcellent
+  description: Кирка отличного качества
+  components:
+    - type: Sprite
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Excellent.rsi
+      state: pickaxe
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 7
+          Piercing: 7
+          Structural: 20
+      attackRate: 0.9
+      heavyStaminaCost: 10
+    - type: IncreaseDamageOnWield
+      damage:
+        types:
+          Blunt: 10
+          Piercing: 10
+          Structural: 25
+    - type: Item
+      size: 80
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Excellent.rsi
+    - type: PointLight
+      color: "#FFFF00FF"
+      energy: 23
+      radius: 1.2
+
+
+- type: entity
+  name: Кирка (Легендарная)
+  parent: EventBasePickaxe
+  id: EventPickaxeLegendary
+  description: Кирка легендарного качества
+  components:
+    - type: Sprite
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Legendary.rsi
+      state: pickaxe
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 10
+          Piercing: 10
+          Structural: 30
+      attackRate: 0.9
+      heavyStaminaCost: 10
+    - type: IncreaseDamageOnWield
+      damage:
+        types:
+          Blunt: 14
+          Piercing: 14
+          Structural: 35
+    - type: Item
+      size: 70
+      sprite: /Uploaded/Sprite/pickaxe/pickaxe_Legendary.rsi
+    - type: PointLight
+      color: "#FF0000FF"
+      energy: 55
+      radius: 1.2
